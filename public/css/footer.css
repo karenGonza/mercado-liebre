@@ -1,0 +1,40 @@
+/* FOOTER */
+/* separa las imagenes de las opciones: pagar con tarjeta de credito o efectivo, enviop gratis desde 2.500$, etc */
+footer {
+    padding-top: 40px;
+}
+
+/*separa las opciones de abajo de todo: pagar con tarjeta de credito o efectivo, envio gratis desde 2.500$, etc */
+footer article {
+    margin-bottom: 40px;
+}
+
+/* centra las opciones de abajo de todo: pagar con tarjeta de credito o efectivo, envio gratis desde 2.500$, etc */
+footer article.footer-article {
+    text-align: center;
+}
+
+/*hace mas grande y da color a los dibujos de abajo de todo: pagar con tarjeta de credito o efectivo, envio gratis desde 2.500$, etc */
+footer article.footer-article i {
+    color: var(--celeste);
+    font-size: 32px;
+    margin-bottom: 15px;
+}
+
+/*hace mas grande a los titulos de abajo de todo: pagar con tarjeta de credito o efectivo, envio gratis desde 2.500$, etc */
+footer article.footer-article h5 {
+    font-size: 16px;
+}
+/*hace mas grande a los textos de abajo de todo: Con Mercado Liebre Cash, tenés cuotas sin interés con tarjeta o efectivo en puntos de pago. ¡Y siempre es seguro!, Solo por estar registrad@ en Mercado Liebre tenés envíos gratis en miles de productos. Es un beneficio de Mercado Puntos. etc*/
+footer article.footer-article p {
+    font-size: 12px;
+    width: 77%;
+    margin: 0 auto;
+}
+
+/*le da color y espacio al pequeño texto de abajo de todo: Copyright ©️ 1999-2020 MercadoLiebre S.R.L. */
+footer .copy {
+    color: var(--gris-oscuro);
+    font-size: var(--paragraph);
+    margin: 0 0 10px 15px;
+}

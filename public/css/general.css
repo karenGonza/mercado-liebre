@@ -1,0 +1,39 @@
+
+/* Reglas generales*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+main section article i{
+    display: block;
+    font-size: 90px;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #39b54a;
+    background-color: #FFF;
+    border-radius: 50%;
+    position: absolute;
+    right: 20px;
+    top: -15px;
+    }
+/* sirve para darle color y quitarle el subrayado a las categorias de la parte de arriba: compra en cuotas y sin tarjeta de crdito, ofertas, tiendas oficiales, etc.*/
+a {
+    color: #000000;
+    text-decoration: none;
+}
+
+/*le da color y estilo a la categoria de la parte de arriba: compra en cuotas y sin tarjeta de crdito, ofertas, tiendas oficiales, etc.*/
+body {
+    font-family: var(--font-roboto);
+    background-color: var(--gris-claro);
+}
+
+li{
+    list-style: none;
+    float:left;
+    font-size: 15px;
+}
